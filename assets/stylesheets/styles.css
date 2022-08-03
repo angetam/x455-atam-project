@@ -1,0 +1,105 @@
+.circleBG {
+    background-image: url('/assets/images/Home_Background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body, table {
+    font-family: source-serif-pro,serif;
+    font-weight: 100;
+    font-style: normal;
+}
+nav, button, .videoTitle, th {
+    font-family: sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem !important;
+    font-weight: 250 !important;
+}
+svg {
+    fill: #3751a3;
+}
+.myFooter {
+    margin: 0 !important;
+    padding: 0rem !important;
+}
+.mybtn {
+    background-color: #3751a3 !important;
+    border: none !important;
+}
+.active-tab {
+    font-weight: bold;
+    color:#3751a3;
+}
+.hrLine:before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: calc(100vw - 500px);
+    position: absolute;
+    top: -50%;
+    right: calc(100% + 25px);
+    background: #3751a3;
+    transform: translateY(-50%);
+}
+.hrLine {
+    position: relative;
+    width: max-content;
+    width: auto;
+}
+.myheader {
+    font-family: adobe-handwriting-ernie, sans-serif;
+    font-style: normal;
+    color:#3751a3;
+    line-height: 0%;
+}
+.bgfill {
+    background-color: #f2eae0;
+    height: 100%;
+    position: relative;
+}
+.bgfill:before {
+    content: "";
+    background-color: #f2eae0;
+    position: absolute;
+    height: 150%;
+    width: 150%;
+    left: -100px;
+    top: -25px;
+    z-index: -1;
+}
+.myheader2 {
+    font-family: source-serif-pro,serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.videoTitle {
+    width: 75%; 
+    float:left;
+}
+.accordion {
+    float: right;
+    color:#3751a3;
+    font-weight: 1000;
+}
+.row-header {
+    font-weight: 600 !important;
+}
+.highlight-bg {
+    background-color: #f2eae0;
+    border: 50px solid #f2eae0;
+}
+.panel {
+    display: none;
+    overflow: hidden;
+}
+thead>tr>th:hover {
+    background-color: rgba(242, 232, 224, 0.5);
+}
+.carouselDark {
+    filter: brightness(50%)
+}
+.scroll {
+    height: 4em;
+    overflow: auto;
+}
